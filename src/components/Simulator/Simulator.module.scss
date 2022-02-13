@@ -1,0 +1,144 @@
+.input {
+  display: block;
+  height: 30px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  background-color: #efefef;
+  border-bottom: solid 1px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+
+  &:active {
+    background-color: #efefef;
+  }
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 40px;
+  width: 40rem;
+  margin-top: -34px;
+}
+
+input[type='button'] {
+  width: 11rem;
+}
+
+.button {
+  grid-column: 1 / -1;
+}
+
+.buttonRight {
+  margin-left: 16rem;
+}
+
+.inputRight {
+  margin-right: 129px;
+}
+
+.inputLeft {
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+
+.errorInput {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+.label {
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.labelError {
+  padding-top: 10px;
+  margin-top: 15px;
+  color: red;
+}
+
+.text {
+  display: flex;
+}
+
+.textLeft {
+  margin-left: 44px;
+}
+
+.textRight {
+  margin-left: 175px;
+}
+
+.sendButton {
+  width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0.5px solid;
+  outline: none;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  &:active {
+    background-color: #ed8e53;
+  }
+
+  &:visited {
+    background: #ed8e53;
+  }
+
+  &:hover {
+    background: #ed8e53;
+  }
+}
+
+input[type='submit'] {
+  background-color: #969696;
+}
+
+.buttonSimulation {
+  margin-left: 30px;
+}
+
+.title {
+  margin-left: 44px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1526px) {
+  .grid {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid {
+    margin: 0;
+  }
+
+  form {
+    grid-template-columns: 1fr;
+  }
+
+  .buttonRight {
+    margin-left: 0;
+  }
+
+  .textRight {
+    margin-left: 22px;
+  }
+
+  .button {
+    display: contents;
+  }
+
+  .textRight {
+    position: absolute;
+    top: 401px;
+    margin-left: 40px;
+  }
+}

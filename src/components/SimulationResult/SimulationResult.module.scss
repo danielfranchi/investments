@@ -1,0 +1,94 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+}
+
+.card {
+  width: 200px;
+  display: grid;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+  span {
+    text-align: center;
+  }
+}
+
+.color {
+  color: green;
+}
+
+.span {
+  margin-bottom: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.graphic {
+  display: grid;
+  margin-top: 30px;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+@media (min-width: 1429px) and (max-width: 1832px) {
+  .grid {
+    margin-left: 65px;
+  }
+  .cardContainer {
+    grid-template-columns: 1fr 1fr;
+    width: 38rem;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1526px) and (max-width: 1606px) {
+  .grid {
+    margin-left: 0px;
+  }
+
+  .cardContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1526px) {
+  .cardContainer {
+    grid-template-columns: 1fr 1fr;
+    width: 100px;
+  }
+}
+
+@media (max-width: 1526px) {
+  .grid {
+    margin: 0 auto;
+  }
+
+  .cardContainer {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid {
+    margin: 0;
+    margin-left: 33px;
+  }
+
+  .cardContainer {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .graphic {
+    display: none;
+  }
+}
