@@ -135,7 +135,7 @@ const Simulator = () => {
           )}
 
           <label className={errors.prazo ? styles.labelError : styles.label}>
-            Prazo
+            Prazo (em meses)
           </label>
           <input
             {...register('prazo', { required: true })}

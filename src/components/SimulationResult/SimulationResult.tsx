@@ -37,11 +37,11 @@ const SimulationResult = () => {
 
   const title = [
     'Valor Final Bruto',
-    'Aliquota IR',
+    'Alíquota IR',
     'Valor Pago IR',
-    'Valor Final Liquido',
+    'Valor Final Líquido',
     'Valor Total Investido',
-    'Ganho Liquido',
+    'Ganho Líquido',
   ];
 
   return (
