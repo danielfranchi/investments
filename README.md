@@ -11,7 +11,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 - [VSCode](https://code.visualstudio.com/) - Visualizar o código
 
 
-Para melhor visibilidade do estato global no Redux, instale a extensão Redux devtools no navegador, e projeto via terminal
+Para melhor visibilidade do estato global no Redux, instale a extensão Redux devtools no navegador, e via terminal no projeto 
 
 - [Redux devtools](http://bit.ly/ctt-redux-dev-tools) - Redux devtools - extensão
 
