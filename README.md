@@ -60,6 +60,9 @@ $ npm install
 # Execute o aplicativo
 $ npm start
 
+# O terminal vai mostrar uma mensagem
+$ aperte Y no teclado para o servidor iniciar
+
 # O servidor irá iniciar na porta: 3001 - access <http://localhost:3001>
 ```
 
