@@ -13,7 +13,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 
 Para melhor visibilidade do estato global no Redux, instale a extensão Redux DevTools no navegador, e via terminal no projeto 
 
-- [Redux DevTools](http://bit.ly/ctt-redux-dev-tools) - Redux DevTools - extensão navegador
+- [Redux DevTools](http://bit.ly/ctt-redux-dev-tools) - Extensão navegador
 
 ```
 # Redux DevTools via terminal
